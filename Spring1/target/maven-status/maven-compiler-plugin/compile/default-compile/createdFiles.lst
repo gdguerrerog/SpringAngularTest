@@ -1,0 +1,7 @@
+com\example\repositories\IClienteRepository.class
+com\example\Services\ClientServiceImpl.class
+com\example\BasicApplication.class
+com\example\entity\ClientEntity.class
+com\example\Services\IClienteService.class
+com\example\controllers\ClientController.class
+.netbeans_automatic_build
