@@ -13,6 +13,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -24,6 +25,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @Getter
 @Setter
 @Entity
+@AllArgsConstructor
 @Table(name="cliente")
 public class ClientEntity implements Serializable {
     

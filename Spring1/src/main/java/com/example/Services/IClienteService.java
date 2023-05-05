@@ -15,7 +15,9 @@ public interface IClienteService {
     List<ClientEntity> findAll();
     ClientEntity getById(Long id);
     ClientEntity update(ClientEntity client, Long id);
-    void delete(Long id);
+    void delete(Long id);    
+    ClientEntity create(ClientEntity client);
+
 }
 
 

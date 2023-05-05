@@ -47,11 +47,14 @@ public class ClientServiceImpl implements IClienteService {
         return currentClient;
     }
     
-    
-
     @Override
     public void delete(Long id) {
         clienteRepository.deleteById(id);
+    }
+
+    @Override
+    public ClientEntity create(ClientEntity client) {
+        return clienteRepository.save(client);
     }
     
 }
